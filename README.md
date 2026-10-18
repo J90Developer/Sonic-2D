@@ -1,105 +1,58 @@
-# ⚔️ Ajedrez Medieval 3D: Guerra de Tronos
+# ⚡ Sonic 2D Web3 Platformer (40 Niveles)
 
-Un videojuego completo de ajedrez tridimensional ambientado en las batallas de la Edad Media, con modelos 3D detallados de ejércitos medievales (lanceros, corceles de justa, inquisidores, baluartes de asedio, reyes y reinas guerreros), motor de Inteligencia Artificial con 4 rangos de dificultad, efectos sonoros bélicos procedurales y soporte multiplataforma garantizado para **Windows 10** y **Linux**.
-
----
-
-## 🚀 Cómo Jugar
-
-No requiere instalación de software adicional, servidores pesados ni compiladores. Funciona de inmediato al 100% de forma local y offline.
-
-### En Windows 10
-1. Haz doble clic en el archivo **`jugar-windows.bat`** (o directamente en **`index.html`**).
-2. Se abrirá en tu navegador web predeterminado (Microsoft Edge, Google Chrome, Mozilla Firefox, Opera, Brave, etc.).
-
-### En Linux (Ubuntu, Debian, Fedora, Arch, etc.)
-1. Abre una terminal en la carpeta del juego y dale permisos de ejecución si es necesario:
-   ```bash
-   chmod +x jugar-linux.sh
-   ./jugar-linux.sh
-   ```
-2. O simplemente haz doble clic en **`index.html`** y ábrelo con cualquier navegador web.
+Videojuego completo de plataformas 2D inspirado en la jugabilidad clásica de Sonic (momentum, loopings 360°, spin-dash, muelles, anillos dorados y badniks), integrado con un ecosistema **Web3 Play-to-Earn (Proof-of-Gameplay)** y arquitectura políglota con **HTML5, Python, C++, Java y Ruby**.
 
 ---
 
-## 🛡️ Tropas y Modelos 3D de la Edad Media
+## 🎮 Cómo Jugar (Inicio Inmediato en Windows)
 
-Cada pieza tradicional de ajedrez ha sido esculpida proceduralmente en 3D con materiales PBR y armas representativas de la época:
+1. Haz doble clic en **`jugar-sonic-windows.bat`** (en la raíz) o en **`sonic_game/jugar-sonic.bat`**.
+2. Se abrirá de inmediato en tu navegador web predeterminado (Edge, Chrome, Firefox, Brave, etc.).
+3. **No requiere instalar servidores, paquetes ni compiladores** para disfrutar del juego al 100%.
 
-- **Peón (Infantería / Lancero Medieval):** Soldado con yelmo cónico normando, cota de malla, peto heráldico, escudo de lágrima (*kite shield*) y lanza de combate.
-- **Torre (Torreón de Asedio Fortificado):** Baluarte de piedra de castillo con matacanes, aspilleras para arqueros, almenas góticas y estandarte flameante.
-- **Caballo (Caballero de Élite / Corcel de Batalla):** Corcel de guerra acorazado con jinete de torneo, yelmo con cimera emplumada y lanza de justa.
-- **Alfil (Inquisidor / Paladín Clérigo):** Figura sagrada con armadura ceremonial, mitra episcopal de doble pico y báculo pastoral de cruz.
-- **Dama (Reina Guerrera Soberana):** Soberana con coraza de placas esculpida, hombreras curvas, capa ondeante, corona floreada y cetro real con orbe.
-- **Rey (Monarca Imperial de Batalla):** Gran señor en armadura imperial completa de placas con blasones de oro, manto con caída real, Corona Imperial con cruz y Espada Magna (mandoble) ceremonial clavada en la peana.
-
----
-
-## 🧠 Motor de Inteligencia Artificial y Dificultades
-
-El motor de IA utiliza el algoritmo **Minimax con Poda Alfa-Beta**, búsqueda quiescente en capturas y tablas de valores posicionales (*Piece-Square Tables*):
-
-1. **🥉 Nivel 1: Recluta (Fácil):** Búsqueda a profundidad 1-2 con movimientos dinámicos ideales para novatos o partidas relajadas.
-2. **🥈 Nivel 2: Escudero (Medio):** Búsqueda a profundidad 2-3 con evaluación material y protección posicional básica.
-3. **🥇 Nivel 3: Caballero (Difícil):** Búsqueda a profundidad 3-4 con ordenamiento óptimo de capturas (MVV-LVA) y control del centro.
-4. **👑 Nivel 4: Gran Mariscal (Experto):** Búsqueda profunda y defensiva con evaluación estratégica avanzada y cálculo posicional.
+### 🕹️ Controles del Juego
+| Teclas | Acción |
+| :--- | :--- |
+| **←** / **→** o **A** / **D** | Acelerar con inercia (alcanza velocidad supersónica / Mach) |
+| **ESPACIO** o **Z** | Saltar con Spin-Attack (destruye badniks enemigos) |
+| **↓** (en carrera) | **Rodar (Roll)**: Se convierte en bola, gana inercia en pendientes y destruye enemigos |
+| **↓** + **ESPACIO** (parado) | **Spin-Dash**: Carga energía y suelta **↓** para salir disparado a máxima velocidad |
+| **↑** / **↓** (parado) | Mirar hacia arriba / agacharse |
+| **P** | Pausar / Reanudar el juego |
+| **Táctil (Móvil)** | D-Pad virtual y botón de salto táctil en pantalla |
 
 ---
 
-## 🎮 Controles y Funcionalidades
+## 🌐 Ecosistema Web3 y Minería Play-to-Earn (Proof-of-Gameplay)
 
-- **Cámara 3D Orbital:**
-  - *Rotación libre:* Clic izquierdo y arrastrar el ratón.
-  - *Zoom:* Rueda del ratón o gesto de pellizco en pantalla táctil.
-  - *Paneo / Desplazamiento:* Clic derecho y arrastrar el ratón.
-- **Alternar Vista 2D/3D:** Botón *Vista Cenital* para pasar a una vista táctica cenital perfecta desde arriba.
-- **Modos de Juego:**
-  - *Comandante vs IA:* Juega con Blancas o Negras contra la máquina.
-  - *Duelo 1 vs 1 (Local):* Modo pase y juegue para dos comandantes en el mismo equipo.
-- **Reglas FIDE Oficiales Completas:**
-  - Enroque corto (O-O) y largo (O-O-O).
-  - Captura al paso (*en passant*).
-  - Coronación / Promoción de peones con menú interactivo (Dama, Torre, Alfil, Caballo).
-  - Detección estricta de Jaque, Jaque Mate, Tablas por Rey Ahogado, Material Insuficiente y 50 Movimientos.
-  - Historial de movimientos en Notación Algebraica Estándar (SAN).
-  - Bajas de Guerra (piezas capturadas) con cálculo en vivo de ventaja de material.
-  - Reloj de tiempo de batalla para ambos bandos.
-  - Función de Deshacer jugada (*Undo*).
-  - Efectos de sonido procedurales generados por la tarjeta de audio mediante Web Audio API (cero riesgo de archivos perdidos).
+- **Fases 1 a 5 (Fases de Prueba / Sandbox Testnet)**:
+  - Entorno de prueba sin coste de gas para calibrar físicas, saltos, recolección de anillos y simulación de transacciones blockchain.
+- **Tasa de Minado por Velocidad (Hashrate)**:
+  - Mientras Sonic corre a alta velocidad y recoge anillos, el motor calcula en tiempo real un flujo de hashes criptográficos basados en el desplazamiento y la aceleración.
+- **Reclamo de Tokens $RING**:
+  - Al cruzar el poste de meta de cada nivel, se valida un voucher criptográfico de *Proof of Gameplay (PoG)* que acredita tokens `$RING` en tu monedero (compatible con MetaMask o monedero local Sandbox).
 
 ---
 
-## 📁 Estructura del Proyecto
+## 🏗️ Arquitectura Políglota de los Componentes
 
-```
-Ajedrez/
-├── index.html                  # Interfaz principal, HUD y modales
-├── css/
-│   └── style.css               # Estilos medievales, bordes dorados y marcos góticos
-├── js/
-│   ├── vendor/
-│   │   ├── three.min.js        # Librería Three.js (local para juego offline)
-│   │   └── OrbitControls.js    # Controlador de cámara orbital
-│   ├── chess/
-│   │   ├── rules.js            # Motor de reglas oficiales FIDE
-│   │   └── ai.js               # Motor de IA Minimax Alfa-Beta (4 niveles)
-│   ├── graphics/
-│   │   ├── models.js           # Modelos 3D de soldados medievales
-│   │   ├── scene.js            # Escena 3D, luces, sombras y animaciones
-│   │   └── board.js            # Tablero tallado en madera y mármol
-│   ├── audio/
-│   │   └── soundEffects.js     # Sonidos procedurales (Web Audio API)
-│   └── app.js                  # Controlador central del juego
-├── jugar-windows.bat           # Lanzador de 1 clic para Windows 10
-├── jugar-linux.sh              # Lanzador de 1 clic para Linux
-└── README.md                   # Manual y documentación técnica
-```
+| Tecnología | Archivo / Directorio | Rol en el Proyecto |
+| :--- | :--- | :--- |
+| **HTML5 / JS / Canvas** | [`index.html`](index.html), [`js/`](js/) | **Cliente de Juego Principal**: Motor de físicas 60 FPS, animaciones procedurales, loopings 360°, audio Web Audio API y UI Web3. |
+| **Python** | [`backend/server.py`](backend/server.py) | **Servidor Anti-Cheat & Oráculo Web3**: Valida métricas de niveles completados y firma vouchers criptográficos PoG. |
+| **C++** | [`physics_core/sonic_physics.cpp`](physics_core/sonic_physics.cpp) | **Núcleo de Físicas de Alta Velocidad**: Implementación determinista de las ecuaciones de inercia, rampas y loopings. |
+| **Java** | [`blockchain_service/RewardDistributor.java`](blockchain_service/RewardDistributor.java) | **Microservicio de Recompensas Blockchain**: Simula el contrato inteligente ERC-20, pool de liquidez y recibos de bloque. |
+| **Ruby** | [`tools/generate_levels.rb`](tools/generate_levels.rb) | **Generador de Niveles**: Script de generación procedural y exportación de los 40 niveles en formato JSON. |
 
 ---
 
-## 🛠️ Portabilidad a Otros Lenguajes (C#, C++, Java)
+## 🗺️ Los 40 Niveles y Zonas Temáticas
 
-Dado que toda la lógica de reglas (`rules.js`) y el motor de IA (`ai.js`) se diseñaron con orientación a objetos limpia y desacoplada:
-- **C# / .NET / Godot:** Se puede incrustar con WebView2 / Blazor Desktop, o portar la clase `ChessGame` y `ChessAI` a C# en Godot Engine usando nodos `MeshInstance3D`.
-- **C++:** Se puede utilizar con wrappers ligeros como Ultralight / WebKit o portar la lógica a Raylib 3D / OpenGL.
-- **Java:** Se puede envolver en una ventana JavaFX con componente `WebView` o portar a libGDX.
+- **Fases 1 a 5**: *Fases de Prueba (Testnet Sandbox: Aceleración, Economía de Anillos, Loopings, Pinchos y Mini-Jefe).*
+- **Actos 6 a 10**: *Emerald Plains (Verdes praderas, loopings, cascadas).*
+- **Actos 11 a 15**: *Lava Caverns (Cavernas volcánicas y plataformas sobre magma).*
+- **Actos 16 a 20**: *Cyber Grid (Circuitos digitales, barreras láser y estética tron).*
+- **Actos 21 a 25**: *Casino Metropolis (Rebotadores de pinball, luces de neón y super muelles).*
+- **Actos 26 a 30**: *Sky Fortress (Fortalezas voladoras y corrientes de aire).*
+- **Actos 31 a 35**: *Quantum Core (Zonas de gravedad alterada y túneles cuánticos).*
+- **Actos 36 a 40**: *Genesis Citadel (Ciudadela mecánica final y confrontaciones culminantes).*
